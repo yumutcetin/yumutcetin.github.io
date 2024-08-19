@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Otelimiz - Lüks Konaklama</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .hero {
+      background-image: url('img/otel1.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+    .content {
+      padding: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Otelimiz</h1>
+  </header>
+  <nav>
+    <a href="#home">Anasayfa</a>
+    <a href="#rooms">Odalar</a>
+    <a href="#services">Hizmetler</a>
+    <a href="#gallery">Galeri</a>
+    <a href="#contact">İletişim</a>
+  </nav>
+  <div class="hero">
+    <h1>Lüks Konaklama</h1>
+  </div>
+  <div class="content">
+    <section id="home">
+      <h2>Hoş Geldiniz</h2>
+      <p>Otelimizde lüks ve konforu bir arada bulacaksınız. Size en iyi hizmeti sunmak için buradayız.</p>
+    </section>
+    <section id="rooms">
+      <h2>Odalarımız</h2>
+      <p>Farklı ihtiyaçlara uygun çeşitli oda seçeneklerimiz bulunmaktadır.</p>
+      <ul>
+        <li>Standart Oda</li>
+        <li>Deluxe Oda</li>
+        <li>Suit Oda</li>
+        <li>Kral Dairesi</li>
+      </ul>
+    </section>
+    <section id="services">
+      <h2>Hizmetlerimiz</h2>
+      <p>Otelimizde sunduğumuz hizmetler:</p>
+      <ul>
+        <li>24 Saat Resepsiyon</li>
+        <li>Oda Servisi</li>
+        <li>Spa ve Wellness</li>
+        <li>Ücretsiz Wi-Fi</li>
+        <li>Havuz</li>
+      </ul>
+    </section>
+    <section id="gallery">
+      <h2>Galeri</h2>
+      <div class="gallery">
+        <img src="img/otel2.jpg" alt="Otel Resim 1">
+        <img src="img/otel3.jpg" alt="Otel Resim 2">
+        <img src="img/otel4.jpg" alt="Otel Resim 3">
+        <img src="img/otel5.jpg" alt="Otel Resim 4">
+      </div>
+    </section>
+    <section id="contact">
+      <h2>İletişim</h2>
+      <p>Bize ulaşmak için aşağıdaki bilgileri kullanabilirsiniz:</p>
+      <ul>
+        <li>Telefon: 0123 456 789</li>
+        <li>E-posta: info@otelimiz.com</li>
+        <li>Adres: Örnek Mah. Otel Sok. No:1, Şehir, Ülke</li>
+      </ul>
+    </section>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2024 Otelimiz. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
